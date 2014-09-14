@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+   <dimen name="tagButtonWidth">230dp</dimen>
+   <dimen name="editButtonWidth">50dp</dimen>
+</resources>

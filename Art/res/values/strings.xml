@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <string name="app_name">Art</string>
+   <string name="shape">Shape: </string>
+   <string name="size">Size</string>
+   <string name="rotation">Rotation: </string>
+   <string name="xRotation">x Rotation</string>
+   <string name="yRotation">y Rotation</string>
+   <string name="zRotation">z Rotation</string>
+   <string name="cube">Cube</string>
+   <string name="pyramid">Pyramid</string>
+   <string name="rectprism">Rectangular Prism</string>
+   <string name="multi">Mutli-colored</string>
+   <string name="red">Red</string>
+   <string name="blue">Blue</string>
+   <string name="green">Green</string>
+</resources>

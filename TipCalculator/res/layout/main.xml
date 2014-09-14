@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- main.xml -->
+<!-- Tip Calculator's XML Layout -->
+
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:layout_width="match_parent" android:layout_height="match_parent" 
+   android:background="#FFF" android:id="@+id/tableLayout" 
+   android:stretchColumns="1,2,3" android:padding="5dp">
+   
+   <!-- tableRow0 -->
+   <TableRow android:layout_height="wrap_content" 
+      android:layout_width="match_parent" android:id="@+id/tableRow0">
+      <TextView android:id="@+id/billTextView" 
+         android:layout_width="wrap_content" 
+         android:layout_height="wrap_content" 
+         android:text="@string/billTotal" android:textColor="#000" 
+         android:gravity="right" android:paddingRight="5dp"></TextView>
+      <EditText android:layout_width="wrap_content" 
+         android:id="@+id/billEditText" 
+         android:layout_height="wrap_content" android:layout_span="3" 
+         android:inputType="numberDecimal" android:layout_weight="1">
+      </EditText>
+   </TableRow>
+
+   <!-- tableRow1 -->
+   <TableRow android:layout_height="wrap_content" 
+      android:layout_width="match_parent" android:id="@+id/tableRow1">
+      <TextView android:id="@+id/tenTextView" 
+         android:layout_width="wrap_content" 
+         android:layout_height="wrap_content" android:text="10%" 
+         android:textColor="#000" android:layout_column="1" 
+         android:gravity="center" android:layout_weight="1"></TextView>
+      <TextView android:id="@+id/fifteenTextView" 
+         android:layout_width="wrap_content" 
+         android:layout_height="wrap_content" android:text="15%" 
+         android:textColor="#000" android:gravity="center" 
+         android:layout_weight="1"></TextView>
+      <TextView android:id="@+id/twentyTextView" 
+         android:layout_width="wrap_content" 
+         android:layout_height="wrap_content" android:text="20%" 
+         android:textColor="#000" android:gravity="center" 
+         android:layout_weight="1"></TextView>
+   </TableRow>
+
+   <!-- tableRow2 -->
+   <TableRow android:layout_height="wrap_content" 
+      android:layout_width="match_parent" android:id="@+id/tableRow2">
+      <TextView android:id="@+id/tipTextView" 
+         android:layout_width="wrap_content" 
+         android:layout_height="wrap_content" 
+         android:text="@string/tip" android:textColor="#000" 
+         android:gravity="right" android:paddingRight="5dp"></TextView>
+      <EditText android:layout_width="wrap_content" 
+         android:id="@+id/tip10EditText" 
+         android:layout_height="wrap_content" android:text="@string/zero" 
+         android:gravity="center" android:focusable="false" 
+         android:layout_weight="1" android:textSize="14sp" 
+         android:cursorVisible="false" android:longClickable="false">
+      </EditText>
+      <EditText android:layout_width="wrap_content" 
+         android:id="@+id/tip15EditText" 
+         android:layout_height="wrap_content" android:text="@string/zero" 
+         android:gravity="center" android:focusable="false" 
+         android:layout_weight="1" android:textSize="14sp" 
+         android:cursorVisible="false" android:longClickable="false">
+      </EditText>
+      <EditText android:layout_height="wrap_content" 
+         android:layout_width="wrap_content" 
+         android:id="@+id/tip20EditText" android:text="@string/zero" 
+         android:gravity="center" android:focusable="false" 
+         android:layout_weight="1" android:textSize="14sp" 
+         android:cursorVisible="false" android:longClickable="false">
+      </EditText>
+   </TableRow>
+   
+   <!-- tableRow3 -->
+   <TableRow android:layout_height="wrap_content" 
+      android:layout_width="match_parent" android:id="@+id/tableRow3">
+      <TextView android:layout_width="wrap_content" 
+         android:layout_height="wrap_content" 
+         android:id="@+id/totalTextView" android:text="@string/total" 
+         android:textColor="#000" android:gravity="right" 
+         android:paddingRight="5dp"></TextView>
+      <EditText android:layout_width="wrap_content" 
+         android:text="@string/zero" android:layout_height="wrap_content" 
+         android:id="@+id/total10EditText" android:gravity="center" 
+         android:focusable="false" android:layout_weight="1" 
+         android:textSize="14sp" android:cursorVisible="false" 
+         android:longClickable="false"></EditText>
+      <EditText android:layout_width="wrap_content" 
+         android:text="@string/zero" android:layout_height="wrap_content" 
+         android:id="@+id/total15EditText" android:gravity="center" 
+         android:focusable="false" android:layout_weight="1" 
+         android:textSize="14sp" android:cursorVisible="false" 
+         android:longClickable="false"></EditText>
+      <EditText android:layout_width="wrap_content" 
+         android:text="@string/zero" android:layout_height="wrap_content" 
+         android:id="@+id/total20EditText" android:gravity="center" 
+         android:focusable="false" android:layout_weight="1" 
+         android:textSize="14sp" android:cursorVisible="false" 
+         android:longClickable="false"></EditText>
+   </TableRow>
+   
+   <!-- tableRow4 -->
+   <TableRow android:layout_height="wrap_content" 
+      android:layout_width="match_parent" android:id="@+id/tableRow4">
+      <TextView android:id="@+id/customTextView" 
+         android:layout_width="wrap_content" android:text="@string/custom"
+         android:textColor="#000" android:paddingRight="5dp" 
+         android:gravity="right|center_vertical" 
+         android:layout_height="match_parent" android:paddingBottom="5dp" 
+         android:focusable="false"></TextView>
+      <SeekBar android:layout_height="wrap_content" 
+         android:layout_width="match_parent" 
+         android:id="@+id/customSeekBar" android:layout_span="2" 
+         android:progress="18" android:paddingLeft="8dp" 
+         android:paddingRight="8dp" android:paddingBottom="5dp" 
+         android:layout_weight="1"></SeekBar>
+      <TextView android:id="@+id/customTipTextView" 
+         android:layout_width="wrap_content" android:text="18%" 
+         android:textColor="#000" android:gravity="center_vertical" 
+         android:layout_height="match_parent" android:paddingLeft="5dp" 
+         android:paddingBottom="5dp" android:focusable="false" 
+         android:layout_weight="1"></TextView>
+   </TableRow>
+   
+   <!-- tableRow5 -->
+   <TableRow android:layout_height="wrap_content" 
+      android:layout_width="match_parent" android:id="@+id/tableRow5">
+      <TextView android:layout_width="wrap_content" 
+         android:layout_height="wrap_content" 
+         android:id="@+id/tipCustomTextView" android:text="@string/tip" 
+         android:textColor="#000" android:gravity="right" 
+         android:paddingRight="5dp"></TextView>
+      <EditText android:layout_width="wrap_content" 
+         android:layout_height="wrap_content" 
+         android:id="@+id/tipCustomEditText" android:text="@string/zero" 
+         android:gravity="center" android:focusable="false" 
+         android:layout_weight="1" android:textSize="14sp" 
+         android:cursorVisible="false" android:longClickable="false">
+      </EditText>
+      <TextView android:id="@+id/totalCustomTextView" 
+         android:layout_width="wrap_content" 
+         android:layout_height="wrap_content" android:text="@string/total"
+         android:textColor="#000" android:gravity="right" 
+         android:paddingRight="5dp" android:layout_weight="1"></TextView>
+      <EditText android:layout_height="wrap_content" 
+         android:layout_width="wrap_content" 
+         android:id="@+id/totalCustomEditText" android:text="@string/zero"
+         android:gravity="center" android:focusable="false" 
+         android:layout_weight="1" android:textSize="14sp" 
+         android:cursorVisible="false" android:longClickable="false">
+      </EditText>
+   </TableRow>
+</TableLayout>
+
+<!-- 
+**************************************************************************
+* (C) Copyright 1992-2012 by Deitel & Associates, Inc. and               *
+* Pearson Education, Inc. All Rights Reserved.                           *
+*                                                                        *
+* DISCLAIMER: The authors and publisher of this book have used their     *
+* best efforts in preparing the book. These efforts include the          *
+* development, research, and testing of the theories and programs        *
+* to determine their effectiveness. The authors and publisher make       *
+* no warranty of any kind, expressed or implied, with regard to these    *
+* programs or to the documentation contained in these books. The authors *
+* and publisher shall not be liable in any event for incidental or       *
+* consequential damages in connection with, or arising out of, the       *
+* furnishing, performance, or use of these programs.                     *
+**************************************************************************
+ -->

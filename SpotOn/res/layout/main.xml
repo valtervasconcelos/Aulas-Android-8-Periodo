@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:id="@+id/relativeLayout" android:layout_width="match_parent"
+   android:layout_height="match_parent" 
+   android:background="@android:color/white">
+   <TextView android:id="@+id/highScoreTextView" 
+      android:layout_width="wrap_content" 
+      android:layout_height="wrap_content" 
+      android:layout_marginTop="10dp"
+      android:layout_marginLeft="10dp"
+      android:textColor="@android:color/black" android:textSize="25sp"
+      android:text="@string/high_score"></TextView>
+   <TextView android:id="@+id/levelTextView" 
+      android:layout_toRightOf="@id/highScoreTextView"
+      android:layout_width="wrap_content" 
+      android:layout_height="wrap_content" 
+      android:layout_marginTop="10dp"
+      android:layout_marginRight="10dp"
+      android:gravity="right"
+      android:layout_alignParentRight="true"
+      android:textColor="@android:color/black" android:textSize="25sp"
+      android:text="@string/level"></TextView>
+   <TextView android:id="@+id/scoreTextView" 
+      android:layout_below="@id/highScoreTextView"
+      android:layout_width="wrap_content" 
+      android:layout_height="wrap_content" 
+      android:layout_marginLeft="10dp"
+      android:textColor="@android:color/black" android:textSize="25sp"
+      android:text="@string/score"></TextView>
+   <LinearLayout android:id="@+id/lifeLinearLayout" 
+      android:layout_alignParentBottom="true"
+      android:layout_width="match_parent" 
+      android:layout_height="wrap_content"
+      android:layout_margin="10dp"></LinearLayout>
+</RelativeLayout >

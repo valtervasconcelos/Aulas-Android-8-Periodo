@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:layout_width="match_parent" android:layout_height="0dp"
+   android:orientation="horizontal" android:layout_weight="1">
+   <ImageView android:id="@+id/daily_forecast_bitmap"
+      android:layout_width="175dp" android:layout_height="175dp"
+      android:layout_gravity="left"/>
+   <LinearLayout android:layout_width="match_parent"
+      android:layout_height="wrap_content" android:orientation="vertical">
+      <TextView android:id="@+id/day_of_week" 
+         android:layout_width="match_parent" 
+         android:layout_height="wrap_content" android:textSize="23sp"
+         android:textColor="@android:color/black"/>
+      <TextView android:id="@+id/daily_forecast_description"
+         android:layout_width="match_parent" 
+         android:layout_height="wrap_content"
+         android:maxHeight="150dp" android:textSize="20sp" 
+         android:textColor="@android:color/black"
+         android:paddingTop="10dp" paddingBottom="10dp" 
+         android:ellipsize="end"/>
+      <LinearLayout android:layout_width="match_parent"
+         android:layout_height="wrap_content" 
+         android:orientation="horizontal">
+         <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            android:id="@+id/high_temperature_label" android:gravity="left" 
+            android:text="@string/high_temperature_label_string"
+            android:textSize="20sp" android:textColor="@android:color/black"
+            android:paddingTop="5dp"/>
+         <TextView android:id="@+id/high_temperature"
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content"
+            android:textSize="20sp" android:textColor="@android:color/black"
+            android:paddingRight="10dp"/>
+         <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            android:id="@+id/low_temperature_label" android:gravity="left" 
+            android:text="@string/low_temperature_label_string"
+            android:textSize="20sp" 
+            android:textColor="@android:color/black"/>
+         <TextView android:id="@+id/low_temperature"
+            android:textSize="20sp" android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            android:textColor="@android:color/black"/>
+      </LinearLayout>
+   </LinearLayout>
+</LinearLayout>

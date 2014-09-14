@@ -1,0 +1,19 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:layout_width="wrap_content" android:layout_height="wrap_content"
+   android:orientation="vertical">
+   <TextView android:layout_width="match_parent"
+      android:layout_height="wrap_content" 
+      android:text="@string/zipcode_prompt"
+      android:textColor="@android:color/white" android:gravity="center"/>
+   <EditText android:id="@+id/add_city_edit_text" 
+      android:layout_width="400dp" android:layout_height="wrap_content"
+      android:inputType="number" />
+   <CheckBox android:id="@+id/add_city_checkbox" 
+      android:layout_width="match_parent" 
+      android:layout_height="wrap_content" 
+      android:text="@string/add_city_checkbox_text"/>
+   <Button android:id="@+id/add_city_button" 
+      android:layout_width="match_parent" 
+      android:layout_height="wrap_content" 
+      android:text="@string/add_city_button_text" />
+</LinearLayout>

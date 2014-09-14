@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:id="@+id/editLinearLayout" android:layout_width="match_parent" 
+   android:layout_height="wrap_content" 
+   android:minHeight="?android:attr/listPreferredItemHeight">
+   <TextView android:id="@+id/nameTextView"
+      android:layout_width="match_parent" 
+      android:layout_height="match_parent"
+      android:textSize="20sp" android:gravity="center_vertical"
+      android:layout_weight="1" />
+   <ImageView android:id="@+id/emailButton"
+      android:layout_width="wrap_content"
+      android:layout_height="match_parent" 
+      android:gravity="right"
+      android:src="@drawable/sym_action_email"
+      android:clickable="true"/>
+   <ImageView android:id="@+id/deleteButton"
+      android:layout_width="wrap_content"
+      android:layout_height="match_parent" 
+      android:gravity="right"
+      android:src="@drawable/ic_delete"
+      android:clickable="true"/>
+</LinearLayout>
+     

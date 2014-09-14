@@ -1,0 +1,28 @@
+<resources>
+	<string-array name="audio_messages">
+		<item>Welcome to the Peetza app</item>
+		<item>Choose a size - small, medium, or large</item>
+		<item>Do you want pehperohnee?</item>
+		<item>Do you want mushrooms?</item>
+		<item>. If your order is correct, please say \'yes\' to send. Say \'no\' to begin again</item>
+	</string-array>
+	
+	<string-array name="display_messages">
+      <item>Welcome to the Pizza app</item>
+      <item>Choose a size - small, medium or large</item>
+      <item>Do you want pepperoni?</item>
+      <item>Do you want mushrooms?</item>
+      <item>. If your order is correct, please say \'yes\' to send. Say \'no\' to begin again.</item>
+   </string-array>
+   
+   <string-array name="size_choices">
+      <item>small</item>
+      <item>medium</item>
+      <item>large</item>
+   </string-array>
+   
+   <string-array name="binary_choices">
+      <item>@string/positive_response</item>
+      <item>@string/negative_response</item>
+   </string-array>
+</resources>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:orientation="vertical" android:layout_width="match_parent"
+   android:layout_height="match_parent">
+   <com.deitel.voicerecorder.VisualizerView
+      android:id="@+id/visualizerView" android:layout_width="match_parent"
+      android:layout_height="match_parent" android:layout_weight="1"/>
+   <LinearLayout android:layout_width="match_parent" 
+      android:layout_height="wrap_content">      
+      <ToggleButton android:id="@+id/recordButton"
+         android:layout_width="0px" 
+         android:layout_height="match_parent" 
+         android:paddingTop="15dp"
+         android:textOn="@string/button_stop" 
+         android:textOff="@string/button_record"
+         android:drawableTop="@drawable/ic_btn_speak_now"
+         android:layout_weight="1" android:keepScreenOn="true"/>
+      <Button android:id="@+id/saveButton" android:layout_width="0dp" 
+         android:layout_height="match_parent" 
+         android:text="@string/button_save"
+         android:drawableTop="@drawable/ic_menu_save"
+         android:layout_weight="1"/>
+      <Button android:id="@+id/deleteButton" android:layout_width="0dp" 
+         android:layout_height="match_parent" 
+         android:text="@string/button_delete"
+         android:drawableTop="@drawable/ic_menu_delete"
+         android:layout_weight="1"/>
+   </LinearLayout>
+   <Button android:id="@+id/viewSavedRecordingsButton" 
+      android:layout_width="match_parent" 
+      android:layout_height="wrap_content" 
+      android:text="@string/button_view_saved_recordings"/>   
+</LinearLayout>

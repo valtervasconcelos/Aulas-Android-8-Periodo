@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="shapes">
+        <item>Cube</item>
+        <item>Pyramid</item>
+        <item>Rectangle</item>
+    <!--     <item>Sphere</item> -->
+    </string-array>
+    <string-array name="colors">
+        <item>Multi</item>
+        <item>Red</item>
+        <item>Green</item>
+        <item>Blue</item>
+    </string-array>
+</resources>

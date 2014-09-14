@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- main.xml -->
+<!-- Welcome App's XML layout. -->
+
+<!-- RelativeLayout that contains the App's GUI components. -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent" 
+	android:layout_height="match_parent" 
+	android:id="@+id/welcomeRelativeLayout" android:background="#FFFFFF">
+   
+   <!-- TextView that displays "Welcome to Android App Development!" -->
+   <TextView android:layout_width="wrap_content" 
+      android:layout_height="wrap_content" 
+      android:text="@string/welcome" 
+      android:textSize="40sp" android:id="@+id/welcomeTextView" 
+      android:textColor="#00F" android:textStyle="bold" 
+      android:layout_centerHorizontal="true" android:gravity="center" 
+      android:layout_marginTop="10dp"></TextView>
+   <ImageView android:layout_height="wrap_content" 
+      android:layout_width="wrap_content" android:id="@+id/droidImageView"
+      android:layout_centerHorizontal="true" 
+      android:src="@drawable/android" 
+      android:layout_below="@id/welcomeTextView"></ImageView>
+   <ImageView android:layout_height="wrap_content" 
+      android:layout_width="wrap_content" android:id="@+id/bugImageView" 
+      android:src="@drawable/bug" 
+      android:layout_below="@id/droidImageView" 
+      android:layout_centerHorizontal="true"></ImageView>
+</RelativeLayout>
+
+<!-- 
+**************************************************************************
+* (C) Copyright 1992-2011 by Deitel & Associates, Inc. and               *
+* Pearson Education, Inc. All Rights Reserved.                           *
+*                                                                        *
+* DISCLAIMER: The authors and publisher of this book have used their     *
+* best efforts in preparing the book. These efforts include the          *
+* development, research, and testing of the theories and programs        *
+* to determine their effectiveness. The authors and publisher make       *
+* no warranty of any kind, expressed or implied, with regard to these    *
+* programs or to the documentation contained in these books. The authors *
+* and publisher shall not be liable in any event for incidental or       *
+* consequential damages in connection with, or arising out of, the       *
+* furnishing, performance, or use of these programs.                     *
+**************************************************************************
+ -->

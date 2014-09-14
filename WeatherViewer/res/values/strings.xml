@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <string name="app_name">Weather Viewer</string>
+   <string name="add_city_dialog_bundle_key">input</string>
+   <string name="pre_zipcode_url">http://i.wxbug.net/REST/Direct/GetForecastHourly.ashx?zip=</string>
+   <string name="pre_condition_url">http://img.weather.weatherbug.com/forecast/icons/localized/500x420/en/trans/</string>
+   <string name="post_condition_url">.png</string>
+   <string name="temperature">temperature</string>
+   <string name="feels_like">feelsLike</string>
+   <string name="humidity">humidity</string>
+   <string name="chance_of_precipitation">chancePrecip</string>
+   <string name="icon">icon</string>
+   <string name="hourly_forecast">forecastHourlyList</string>
+   <string name="zipcode_extra">zipcode_extra</string>
+   <string name="city_dialog_preferred">Set Preferred</string>
+   <string name="city_dialog_delete">Delete</string>
+   <string name="city_dialog_cancel">Cancel</string>
+   <string name="add_city_dialog_title">Add City</string>
+   <string name="location_url_pre_zipcode">http://i.wxbug.net/REST/Direct/GetLocation.ashx?zip=</string>
+   <string name="location">location</string>
+   <string name="city">city</string>
+   <string name="country">country</string>
+   <string name="state">state</string>
+   <string name="invalid_zipcode_error">Invalid ZIP code.</string>
+   <string name="zipcode_prompt">Please enter a ZIP code:</string>
+   <string name="zipcode">ZIP code:&#160;</string>
+   <string name="save">Save&#160;</string>
+   <string name="weather_options">Weather Options</string>
+   <string name="temperature_unit">F</string>
+   <string name="temperature_label_string">Temperature:&#160;</string>
+   <string name="feels_like_label_string">Feels like:&#160;</string>
+   <string name="humidity_label_string">Humidity:&#160;</string>
+   <string name="chance_of_precipitation_label_string">Chance of 
+      Precipitation:&#160;</string>
+   <string name="loading_message">Loading Forecast....</string>
+   <string name="forecast_list">forecastList</string>
+   <string name="high_temperature_label_string">High:&#160;</string>
+   <string name="low_temperature_label_string">Low:&#160;</string>
+   <string name="day_of_week">dayTitle</string>
+   <string name="day_prediction">dayPred</string>
+   <string name="high">high</string>
+   <string name="low">low</string>
+   <string name="date_time">dateTime</string>
+   <string name="day_icon">dayIcon</string>
+   <string name="current_conditions">Current Conditions</string>
+   <string name="five_day_forecast">Five Day Forecast</string>
+   <string name="add_city_button_text">Add City</string>
+   <string name="add_city_checkbox_text">Set as preferred city</string>
+   <string name="duplicate_zipcode_error">Duplicate ZIP code.</string>
+   <string name="update_preferred_action">com.dietel.weatherviewer.UPDATE_PREFERRED_CITY</string>
+   <string name="city_dialog_message_prefix">Perform which action on&#160;</string>
+   <string name="city_dialog_message_postfix">\?</string>
+   <string name="click_widget_message">Click to launch WeatherViewer app.</string>
+   <string name="null_data_toast">Data could not be read from web service.</string>
+   <string name="last_city_warning">Cannot delete the last city.</string>
+   <string name="add_new_city">Add New City</string>
+   <string name="default_zipcode">02115</string>
+</resources>

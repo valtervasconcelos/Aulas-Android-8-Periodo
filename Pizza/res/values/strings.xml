@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <string name="app_name">Pizza</string>
+   <string name="welcome">Welcome to the Pizza app</string>
+   <string name="error_message">I\'m sorry, I did not understand that. Please repeat.</string>
+   <string name="final_message">Your order has been placed. Thank you.</string>
+   <string name="positive_response">Yes</string>
+   <string name="negative_response">No</string>
+   <string name="initial_order">Order: 1 pizza</string>
+   <string name="pizza">pizza</string>
+   <string name="pizza_speech">peetza</string>
+   <string name="order_summary_prefix">You ordered</string>
+   <string name="pepperoni">, pepperoni</string>
+   <string name="pepperoni_speech">, pehperohnee</string>
+   <string name="mushrooms">, mushrooms</string>
+   <string name="no_speech_message">Speech recognition is not available on this device, this app will not work as intended.</string>
+   <string name="text_error_message">Could not send SMS message.</string>
+   <string name="quit_message">If you\'d like to place an order, launch the Peetza app from your home screen</string>
+   <string name="leave_message">Thank you for ordering with us. If you\'d like to place another order, launch the Peetza app from your home screen</string>
+   <string name="quit_question">Would you like to exit the peetza app?</string>
+   <string name="leave_question">Do you want to place another order?</string>
+   <string name="phone_number">PLACE SMS PHONE NUMBER HERE</string>
+</resources>

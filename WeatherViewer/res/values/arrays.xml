@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <string-array name="default_city_names">
+      <item>Boston</item>
+      <item>Chicago</item>
+      <item>Dallas</item>
+      <item>Denver</item>
+      <item>New York</item>
+      <item>San Diego</item>
+      <item>San Francisco</item>
+      <item>Seattle</item>
+   </string-array>
+   <string-array name="default_city_zipcodes">
+      <item>02115</item>
+      <item>60611</item>
+      <item>75254</item>
+      <item>80202</item>
+      <item>10024</item>
+      <item>92104</item>
+      <item>94112</item>
+      <item>98101</item>
+   </string-array>
+</resources>

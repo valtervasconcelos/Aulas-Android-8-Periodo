@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <string name="app_name">Address Book</string>
+   <string name="button_add_contact">Add Contact</string>
+   <string name="button_save_contact">Save Contact</string>
+   <string name="menuitem_add_contact">Add Contact</string>
+   <string name="menuitem_edit_contact">Edit Contact</string>
+   <string name="menuitem_delete_contact">Delete Contact</string>
+   <string name="address">Address</string>
+   <string name="hint_name">Name</string>
+   <string name="hint_email">E-Mail</string>
+   <string name="hint_phone">Phone</string>
+   <string name="hint_street">Street</string>
+   <string name="hint_city">City/State/Zip</string>
+   <string name="label_name">Name:</string>
+   <string name="label_email">E-Mail:</string>
+   <string name="label_phone">Phone:</string>
+   <string name="label_street">Street:</string>
+   <string name="label_city">City/State/Zip:</string>
+   <string name="confirmTitle">Are You Sure?</string>
+   <string name="confirmMessage">
+      This will permanently delete the contact</string>
+   <string name="errorButton">OK</string>
+   <string name="errorTitle">Contact Name is Required</string>
+   <string name="errorMessage">You must enter a contact name</string>
+   <string name="button_cancel">Cancel</string>
+   <string name="button_delete">Delete</string>
+</resources>

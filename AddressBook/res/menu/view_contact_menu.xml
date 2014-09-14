@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+   <item android:id="@+id/editItem"
+      android:title="@string/menuitem_edit_contact" 
+      android:orderInCategory="1" android:alphabeticShortcut="e"
+      android:titleCondensed="@string/menuitem_edit_contact"
+      android:icon="@android:drawable/ic_menu_edit"></item>
+   <item android:id="@+id/deleteItem" 
+      android:title="@string/menuitem_delete_contact"
+      android:orderInCategory="2" android:alphabeticShortcut="d"
+      android:titleCondensed="@string/menuitem_delete_contact"
+      android:icon="@android:drawable/ic_delete"></item>
+</menu>
